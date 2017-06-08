@@ -4,6 +4,7 @@
   "description": "Create a virtual host environment using Docker",
   "main": "index.js",
   "scripts": {
+    "postversion": "git push --tags && git push",
     "serve": "nodemon ./ --legacy-watch",
     "start": "node ./",
     "test": "echo \"Error: no test specified\" && exit 1"
