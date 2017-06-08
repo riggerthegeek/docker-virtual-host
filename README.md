@@ -4,7 +4,8 @@ Create a virtual host environment using Docker.
 
 # Purpose
 
-This is so you can host multiple named websites from a single box. This should ideally be used with Docker Compose.
+This is so you can host multiple named websites from a single box. This should ideally be used with 
+[Docker Compose](https://docs.docker.com/compose).
 
 # Config
 
