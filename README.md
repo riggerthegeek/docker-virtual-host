@@ -1,5 +1,7 @@
 # Docker Virtual Host
 
+[![Docker Build Statu](https://img.shields.io/docker/build/riggerthegeek/docker-virtual-host.svg)]()
+
 Create a virtual host environment using Docker.
 
 # Purpose
