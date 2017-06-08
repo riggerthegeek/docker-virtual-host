@@ -1,0 +1,28 @@
+{
+  "name": "docker-virtual-host",
+  "version": "0.0.0",
+  "description": "Create a virtual host environment using Docker",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon ./ --legacy-watch",
+    "start": "node ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/riggerthegeek/docker-virtual-host.git"
+  },
+  "author": "Simon Emms <simon@simonemms.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riggerthegeek/docker-virtual-host/issues"
+  },
+  "homepage": "https://github.com/riggerthegeek/docker-virtual-host#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "http-proxy-middleware": "^0.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
